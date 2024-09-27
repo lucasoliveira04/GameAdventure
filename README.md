@@ -8,6 +8,9 @@ O personagem pode atacar inimigos, e a força do ataque é baseada na quantidade
 
 ## Habilidades iniciais
 vida = 100
+
 energia = 100
+
 forcaAtaque = 10
+
 velocidade = 5
