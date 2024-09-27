@@ -1,0 +1,13 @@
+## Jogo de exploração
+
+O jogo consiste em um personagem que explora um mapa, coletando itens e enfrentando inimigos.
+O personagem tem uma quantidade de vida e uma quantidade de energia. A vida é reduzida quando o personagem é atacado por um inimigo e a energia é reduzida quando o personagem se movimenta.
+O personagem pode coletar itens que aumentam sua vida e energia, e também pode coletar itens que aumentam sua força de ataque.
+O personagem pode atacar inimigos, e a força do ataque é baseada na quantidade de itens que aumentam a força de ataque que o personagem coletou.
+
+
+## Habilidades iniciais
+vida = 100
+energia = 100
+forcaAtaque = 10
+velocidade = 5
