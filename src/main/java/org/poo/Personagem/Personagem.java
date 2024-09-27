@@ -8,13 +8,14 @@ import java.util.List;
 @Getter
 @Setter
 public class Personagem {
+    private String nome;
     private int vida = 100;
     private int energia = 100;
     private int forcaAtaque = 10;
     private int velocidade = 5;
     private int itens;
     private List<Integer> qntdAtaques;
-
+    private double[] coordenadas;
 
     public boolean atacar() {
         if (this.energia > 0) {
@@ -29,6 +30,11 @@ public class Personagem {
         this.forcaAtaque += item.getAtributosCalculados().getForca();
         this.velocidade += item.getAtributosCalculados().getVelocidade();
         this.itens++;
+    }
+
+    public void mover(Movement movimento) {
+        this.coordenadas[0] += movimento.getX();
+        this.coordenadas[1] += movimento.getY();
     }
 
 }
