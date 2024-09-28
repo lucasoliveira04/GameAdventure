@@ -5,14 +5,14 @@ import lombok.Setter;
 
 @Getter @Setter
 public class Movement {
-    private int x;
-    private int y;
+    private double x;
+    private double y;
 
     public Movement(){
         
     }
 
-    public Movement(int x, int y) {
+    public Movement(double x, double y) {
         this.x = x;
         this.y = y;
     }
